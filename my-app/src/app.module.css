@@ -1,0 +1,43 @@
+.app {
+	text-align: center;
+}
+.display {
+	margin: 15px auto;
+	height: 42px;
+	width: 275px;
+	padding: 0 10px;
+	border: solid;
+	background-color: #000000;
+	border-width: 4px;
+	border-radius: 4px;
+	background-color: hsl(153, 10%, 79%);
+	font-size: 28px;
+	color: #000000;
+	text-align: right;
+	font-weight: 400;
+}
+.resultNum {
+	color: rgb(78, 156, 19);
+}
+
+.allButtons {
+	display: flex;
+}
+.numsButtons {
+	width: 240px;
+	margin-left: 340px;
+}
+
+.buttons {
+	width: 60px;
+	height: 60px;
+	font-size: 30px;
+	margin: 10px;
+	border-radius: 7px;
+	background-color: hsl(153, 10%, 79%);
+}
+.operationButtons {
+	display: flex;
+
+	flex-direction: column;
+}
