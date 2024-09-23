@@ -22,10 +22,11 @@
 
 .allButtons {
 	display: flex;
+	width: 320px;
+	margin: auto;
 }
 .numsButtons {
 	width: 240px;
-	margin-left: 340px;
 }
 
 .buttons {
@@ -38,6 +39,5 @@
 }
 .operationButtons {
 	display: flex;
-
 	flex-direction: column;
 }
